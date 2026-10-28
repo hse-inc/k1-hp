@@ -25,7 +25,7 @@ h1, h2, h3, p { margin: 0; font-weight: inherit; }
 .sec { position: relative; padding-block: var(--sec-y); }
 .txt { display: grid; gap: var(--sp-p); }
 .body { font-size: var(--fs-body); }
-.lead { font-family: var(--ff-min); font-weight: 600; font-size: var(--fs-lead); line-height: var(--lh-lead); letter-spacing: 0.08em; }
+.lead { font-family: var(--ff-min); font-weight: 600; font-size: var(--fs-lead); line-height: var(--lh-lead); letter-spacing: 0.06em; }
 
 .ttl { display: grid; gap: var(--sp-p); }
 .ttl__en {
@@ -43,7 +43,7 @@ h1, h2, h3, p { margin: 0; font-weight: inherit; }
 .ttl__ja { display: flex; align-items: center; gap: 12px; font-size: var(--fs-label); font-weight: 500; letter-spacing: 0.12em; }
 .ttl__ja::before { content: ""; width: 24px; height: 1px; background: currentColor; }
 
-.mask { display: block; overflow: hidden; padding-bottom: 0.08em; margin-bottom: -0.08em; }
+.mask { display: block; overflow: hidden; padding: 0.14em 0.1em 0.08em; margin: -0.14em -0.1em -0.08em; }
 .mask > span { display: block; transform: translateY(105%); transition: transform 1.1s var(--ease); }
 .ttl__en.is-on .mask > span { transform: none; transition-delay: calc(var(--m, 0) * 0.1s); }
 
