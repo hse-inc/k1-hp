@@ -36,10 +36,10 @@
   --fs-head: clamp(22px, 2.2vw, 32px);
   --lh-head: 1.6;
   --ls-head: 0.06em;
-  --fs-en-xl: clamp(64px, 11vw, 176px);
+  --fs-en-xl: 9.6vw;
   --lh-en-xl: 0.84;
   --ls-en-xl: -0.045em;
-  --fs-en-l: clamp(44px, 6.4vw, 104px);
+  --fs-en-l: clamp(36px, 6.4vw, 120px);
   --fs-en-s: 13px;
 
   
@@ -57,7 +57,7 @@
 
   
   --header-h: 64px;
-  --btn-arw: 48px;
+  --btn-arw: 40px;
   --marquee-pxs: 40;
 
   
@@ -75,7 +75,8 @@
     --gutter: 48px;
     --frame: 16px;
     --header-h: 88px;
-    --btn-arw: 56px;
+    --btn-arw: 46px;
+    --fs-en-xl: clamp(64px, 6.8vw, 140px);
   }
 }
 @media (min-width: 1600px) {
